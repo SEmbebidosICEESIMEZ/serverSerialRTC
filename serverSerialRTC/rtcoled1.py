@@ -21,6 +21,7 @@ def update_display():
 def counter(timer):
     global count
     count += 1
+    print(count)
     update_display()  # Actualiza la pantalla con el nuevo conteo
 
 timer = Timer(-1)
